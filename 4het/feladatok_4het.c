@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <time.h>
 
 //1.feladat
 int valid_triangle(int a, int b, int c){
@@ -127,11 +126,11 @@ int main(){
     printf("\n");
     printf("\n",abszolut(T,m));
     
-    time_t t = time(NULL);
-    struct tm *inf = localtime(&t);
-    char ev[5];
-    strftime(ev, sizeof(ev), "%Y", inf);
-    printf("%s\n", ev);
+    char ketto,nulla,hat;
+    ketto = 'c' - 'a';
+    nulla = 'a' - 'a';
+    hat = 'g' - 'a';
+    printf("%d%d%d%d\n", ketto, nulla, ketto, hat);
 
 
     return 0;
