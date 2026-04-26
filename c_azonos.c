@@ -2,7 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
-int is_valid_c_identifier(const char* input) {
+int valid_C(const char* input) {
     int hossz = strlen(input);
     if (hossz == 0) {
         return 0;
@@ -36,7 +36,7 @@ int main() {
             break;
         }
 
-        if (is_valid_c_identifier(szo)) {
+        if (valid_c(szo)) {
             printf("YES\n");
         } else {
             printf("NO\n");
