@@ -6,7 +6,7 @@
 #define VERSION "0.1.0.2"
 
 void show_help() {
-    printf("alap v0.1.9\n\n");
+    printf("alap v%s\n\n", VERSION);
     printf("Usage: alap <template_id> [option]\n\n");
     printf("Available options:\n");
     printf("  -h, --help       show this help\n");
