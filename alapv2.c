@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define VERSION "0.1.0.2"
+#define VERSION "0.1.1.4"
 
 void show_help() {
     printf("alap v%s\n\n", VERSION);
