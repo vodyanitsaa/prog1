@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define VERSION "alap v0.1.0.2"
+#define VERSION "0.1.0.2"
 
 void show_help() {
     printf("alap v0.1.9\n\n");
@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
 
     // Verzió kapcsoló
     if (strcmp(argv[1], "-v") == 0 || strcmp(argv[1], "--version") == 0) {
-        printf("%s\n", VERSION);
+        printf("alap v%s\n", VERSION);
         return 0;
     }
 
