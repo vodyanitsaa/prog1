@@ -1,0 +1,8 @@
+cat:
+	type Makefile
+
+c:
+	gcc alap.c -o alap.exe
+
+clean:
+	if exist alap.exe del /f alap.exe
