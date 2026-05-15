@@ -74,8 +74,7 @@ int main(int argc, char *argv[]) {
         printf("%s", content);
         return 0;
     }
-
-    /* A módosított access() itt már Windows-on is jól fut */
+    
     if (access(filename, F_OK) == 0) {
         printf("Error, %s already exists.\n", filename);
         return 1;
